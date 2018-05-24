@@ -19,7 +19,7 @@ $data = array(
 'ev' => round($total),  # изменяемая величина - Целое число (number) сумма токенов - величина ценности события
 'cd1' => $clientId,
 'dl' => 'http://f0205082.xsph.ru',  # постоянная величина - URL сайта - host и http(s) протокол, величина необходима если есть фильтр host-а в аналитике
-'dt' => 'transaction in '.$currency.' by user '.$userId,   # изменяемая величина - название страницы
+'dt' => 'transaction '.$investments_count.' '.$currency.' by user '.$userId,   # изменяемая величина - название страницы
 'dp' => '/transfer'  # обязательный постоянный параметр - виртуальная страница
 );
 
